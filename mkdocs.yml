@@ -1,0 +1,19 @@
+site_name: AI function
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: black
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+
+plugins:
+  - glightbox  
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
